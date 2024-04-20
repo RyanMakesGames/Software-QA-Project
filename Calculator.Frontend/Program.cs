@@ -21,3 +21,21 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>();
 
 app.Run();
+
+//Methods
+//A + B
+static float plus(float a, float b){
+    return a + b;
+}
+//A - B
+static float minus(float a,float b){
+    return a - b;
+}
+//A * B
+static float multiply(float a, float b){
+    return a * b;
+}
+//A / B
+static float divide(float a, float b){
+    return a / b;
+}
