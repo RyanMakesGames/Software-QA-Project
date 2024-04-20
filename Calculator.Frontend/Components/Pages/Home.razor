@@ -14,40 +14,50 @@
     .calculator{
         background: #ffffff;
         padding: 20px;
-        border-radius: 10px;
     }
 
     .calculator form input{
         border: 1;
         outline: 0;
-        width: 80px;
-        height: 30px;
+        width: 200px;
+        height: 25px;
         background: #ebebeb;
         font-size: 13px;
         color: #000000;
         cursor: pointer;
-        margin: 10px;
+        margin: 5px;
     }
 
     form .display{
         display: flex;
-        justify-content: flex-end;
-        margin: 20px 0;
+        flex: 1;
+        width: 70px;
+        background: #FFECD7;
+        user-select: none;
+        justify-content: center;
     }
 
-    form .display input{
+    form .input{
+        display: flex;
+        justify-content: flex-end;
+        margin: 10px 0;
+    }
+
+    form .input input{
         text-align: right;
         flex: 1;
-        font-size: 45px;
+        font-size: 20px;
         box-shadow: none;
+        border-radius: 5px;
     }
 
     form .header input{
-        margin-left: 170px;
+        margin-left: 75px;
+        border-radius: 5px;
     }
 
-    form input.equal{
-        width: 145px;
+    form .button input{
+        border-radius: 5px;
     }
 </style>
 
@@ -56,42 +66,58 @@
         <div class="calculator">
             <form>
                 <div class="header">
-                    <h1>Calculator
+                    <h1>
+                        Calculator
                         <input type="button" value="Clear">
                     </h1>
                 </div>
                 <div class="display">
-                    <input type="text" name="display">
+                    Enter value(s) below and select an operation.
                 </div>
                 <div>
-                    <input type="button" value ="AC">
-                    <input type="button" value ="DE">
-                    <input type="button" value =".">
-                    <input type="button" value ="/">
+                    <label for="ainput">Input A</label>
+                    <label for="binput">Input B</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="inputA">
+                    <input type="text" name="inputB">
                 </div>
                 <div>
-                    <input type="button" value ="7">
-                    <input type="button" value ="8">
-                    <input type="button" value ="9">
-                    <input type="button" value ="*">
+                    <table>
+                        <tr>
+                            <th>A and B</th>
+                            <th>A only</th>
+                        </tr>
+                    </table>
                 </div>
-                <div>
-                    <input type="button" value ="4">
-                    <input type="button" value ="5">
-                    <input type="button" value ="6">
-                    <input type="button" value ="-">
+                <div class="button">
+                    <input type="button" value ="A + B">
+                    <input type="button" value ="A!">
                 </div>
-                <div>
-                    <input type="button" value ="1">
-                    <input type="button" value ="2">
-                    <input type="button" value ="3">
-                    <input type="button" value ="+">
+                <div class="button">
+                    <input type="button" value ="A - B">
+                    <input type="button" value ="sin A">
                 </div>
-                <div>
-                    <input type="button" value ="00">
-                    <input type="button" value ="0">
-                    <input type="button" value ="=" class="equal">
-                
+                <div class="button">
+                    <input type="button" value ="A * B">
+                    <input type="button" value ="cos A">
+                </div>
+                <div class="button">
+                    <input type="button" value ="A / B">
+                    <input type="button" value ="tan A">
+                </div>
+                <div class="button">
+                    <input type="button" value ="A == B">
+                    <input type="button" value ="1 / A">
+                </div>
+                <div class="button">
+                    <input type="button" value ="A ^ B">
+                </div>
+                <div class="button">
+                    <input type="button" value ="A log B">
+                </div>
+                <div class="button">
+                    <input type="button" value ="A root B">
                 </div>
             </form>
         </div>
