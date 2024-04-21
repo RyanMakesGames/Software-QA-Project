@@ -19,7 +19,6 @@
     .calculator form input{
         border: 1;
         outline: 0;
-        width: 200px;
         height: 25px;
         background: #ebebeb;
         font-size: 13px;
@@ -28,12 +27,10 @@
         margin: 5px;
     }
 
-    form .display{
+    .display{
         display: flex;
-        flex: 1;
-        width: 70px;
+        width: 500px;
         background: #FFECD7;
-        user-select: none;
         justify-content: center;
     }
 
@@ -49,15 +46,18 @@
         font-size: 20px;
         box-shadow: none;
         border-radius: 5px;
+        width: 200px;
     }
 
     form .header input{
-        margin-left: 75px;
+        margin-left: 150px;
         border-radius: 5px;
+        width: 200px;
     }
 
     form .button input{
         border-radius: 5px;
+        width: 200px;
     }
 </style>
 
@@ -72,15 +72,15 @@
                     </h1>
                 </div>
                 <div class="display">
-                    Enter value(s) below and select an operation.
+                    <input type="text" name="display1" value="Enter a value(s) below and select an operation.">
                 </div>
-                <div>
+                <div class="header">
                     <label for="ainput">Input A</label>
                     <label for="binput">Input B</label>
                 </div>
                 <div class="input">
-                    <input type="text" name="inputA">
-                    <input type="text" name="inputB">
+                    <input id="InputA" name="inpA" type="text" value="0">
+                    <input id="InputB" name="inpB" type="text" value="0">
                 </div>
                 <div>
                     <table>
@@ -91,19 +91,19 @@
                     </table>
                 </div>
                 <div class="button">
-                    <input type="button" value ="A + B" onclick="plus(inputA, inputB)">
+                    <input type="button" value ="A + B" onclick="display1.value = @Plus()">
                     <input type="button" value ="A!">
                 </div>
                 <div class="button">
-                    <input type="button" value ="A - B" onclick="minus(inputA, inputB)">
+                    <input type="button" value ="A - B">
                     <input type="button" value ="sin A">
                 </div>
                 <div class="button">
-                    <input type="button" value ="A * B" onclick="multiply(inputA, inputB)">
+                    <input type="button" value ="A * B">
                     <input type="button" value ="cos A">
                 </div>
                 <div class="button">
-                    <input type="button" value ="A / B" onclick="divide(inputA, inputB)">
+                    <input type="button" value ="A / B">
                     <input type="button" value ="tan A">
                 </div>
                 <div class="button">
@@ -123,3 +123,70 @@
         </div>
     </div>
 </body>
+
+@code {
+// Methods
+// A + B
+private static double Plus(double a, double b){
+    return a + b;
+}
+// A - B
+static double Minus(double a,double b){
+    return a - b;
+}
+// A * B
+static double Multiply(double a, double b){
+    return a * b;
+}
+// A / B
+static double Divide(double a, double b){
+    return a / b;
+}
+// A ^ B
+static double Power(double a, double b){
+    return Math.Pow(a, b);
+}
+// A log B
+static double Log(double a, double b){
+    return Math.Log(a, b);
+}
+// A root B
+static double Root(double a, double b){
+    return Math.Pow(a, 1.0 / b);
+}
+// A == B
+
+// A!
+static double Factorial(double a){
+    if(a == 0){
+        return 1;
+    }
+    else if(a < 0){
+        return a * Factorial(a++);
+    }
+    else{
+        return a * Factorial(a--);
+    }
+    
+}
+// sin A
+static double Sin(double a){
+    return Math.Sin(a);
+}
+// cos A
+static double Cos(double a){
+    return Math.Cos(a);
+}
+// tan A
+static double Tan(double a){
+    return Math.Tan(a);
+}
+// 1 / A
+/*static double DivA(double a){
+    try{
+        return 1 / a;
+    } catch{
+        //return stuff
+    }
+}*/
+}
