@@ -31,7 +31,7 @@
             <h2>
                 Calculator
             </h2>
-            <button class="btn btn-primary">Clear</button>
+            <button @onclick="Clear" class="btn btn-primary">Clear</button>
         </div>
         <div class="display">
             <input placeholder="Enter values below and select an operation." readonly @bind-value="finalresult">
@@ -41,7 +41,7 @@
             <p>First Number</p>
         </div>
         <div class="input">
-            <input placeholder="Enter First Number" @bind-value="num1" />
+            <input placeholder="0" @bind-value="num1" />
         </div>
     </div>
     <div class="row">
@@ -49,7 +49,7 @@
         <p>Second Number</p>
     </div>
     <div class="input">
-        <input placeholder="Enter Second Number" @bind-value="num2" />
+        <input placeholder="0" @bind-value="num2" />
     </div>
 </div>
 
@@ -209,5 +209,12 @@
         {
             finalresult = "Cannot Divide By Zero";
         }
+    }
+
+    private void Clear()
+    {
+        finalresult = "Enter values below and select an operation.";
+        num1 = "0";
+        num2 = "0";
     }
 }
