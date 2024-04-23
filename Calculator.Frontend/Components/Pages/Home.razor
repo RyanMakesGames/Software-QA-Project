@@ -75,7 +75,7 @@
 </div>
 <br />
 <div class="row">
-    <button @onclick="AddNumbers" class="btn btn-primary">A + B</button>
+    <button @onclick="Equal" class="btn btn-primary">A == B</button>
     <button @onclick="DivA" class="btn btn-primary">1 / A</button>
 </div>
 <br />
@@ -208,6 +208,18 @@
         else
         {
             finalresult = "Cannot Divide By Zero";
+        }
+    }
+
+    private void Equal()
+    {
+        if(Convert.ToDouble(num1) == Convert.ToDouble(num2))
+        {
+            finalresult = "1";
+        }
+        else
+        {
+            finalresult = "0";
         }
     }
 
