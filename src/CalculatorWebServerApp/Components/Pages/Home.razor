@@ -1,0 +1,94 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<style>
+    .container {
+        width: 100%;
+        height: 100vh;
+        background: #e2e6eb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .calculator {
+        background: #ffffff;
+        padding: 20px;
+    }
+
+    .display {
+        display: flex;
+        width: 500px;
+        background: #FFECD7;
+        justify-content: center;
+    }
+
+</style>
+
+<div class="container">
+    <div class="calculator">
+        <div class="header">
+            <h2>
+                Calculator
+            </h2>
+            <button @onclick="Clear" class="btn btn-primary">Clear</button>
+        </div>
+        <div class="display">
+            <input placeholder="Enter values below and select an operation." readonly @bind-value="finalresult">
+        </div>
+        <div class="row">
+            <div class="input">
+            <p>First Number</p>
+        </div>
+        <div class="input">
+            <input placeholder="0" @bind-value="num1" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="input">
+        <p>Second Number</p>
+    </div>
+    <div class="input">
+        <input placeholder="0" @bind-value="num2" />
+    </div>
+</div>
+
+<br />
+<div class="row">
+    <button @onclick="AddNumbers" class="btn btn-primary">A + B</button>
+    <button @onclick="Factorial" class="btn btn-primary">A!</button>
+</div>
+<br />
+<div class="row">
+    <button @onclick="SubtractNumbers" class="btn btn-primary">A - B</button>
+    <button @onclick="Sin" class="btn btn-primary">sin A</button>
+</div>
+<br />
+<div class="row">
+    <button @onclick="MultiplyNumbers" class="btn btn-primary">A * B</button>
+    <button @onclick="Cos" class="btn btn-primary">cos A</button>
+</div>
+<br />
+<div class="row">
+    <button @onclick="DivideNumbers" class="btn btn-primary">A / B</button>
+    <button @onclick="Tan" class="btn btn-primary">tan A</button>
+</div>
+<br />
+<div class="row">
+    <button @onclick="Equal" class="btn btn-primary">A == B</button>
+    <button @onclick="DivA" class="btn btn-primary">1 / A</button>
+</div>
+<br />
+<div class="row">
+    <button @onclick="Power" class="btn btn-primary">A ^ B</button>
+</div>
+<br />
+<div class="row">
+    <button @onclick="Log" class="btn btn-primary">A log B</button>
+</div>
+<br />
+<div class="row">
+    <button @onclick="Root" class="btn btn-primary">A root B</button>
+</div>
+</div>
+</div>
