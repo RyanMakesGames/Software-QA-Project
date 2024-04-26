@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ptl40\\.nuget\\packages\\": {}
+    "C:\\Users\\rzewr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj",
+      "projectUniqueName": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj",
       "projectName": "CalculatorEngine",
-      "projectPath": "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj",
-      "packagesPath": "C:\\Users\\ptl40\\.nuget\\packages\\",
-      "outputPath": "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\obj\\",
+      "projectPath": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj",
+      "packagesPath": "C:\\Users\\rzewr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ptl40\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rzewr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
