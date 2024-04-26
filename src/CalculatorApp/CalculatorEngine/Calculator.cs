@@ -40,14 +40,15 @@
 
 		//A Only
 		public static double Factorial(double a){
-			if(a < 0) return double.NaN;
 			if(a == 0) return 1;
+			bool isNegative = a < 0;
+			if(isNegative) a *= -1;
 
 			int f = 1;
 			for(int i = 1; i <= a; i++){
 				f *= i;
 			}
-			return f;
+			return isNegative ? -f : f;
 		}
 
 		public static double Sin(double a){

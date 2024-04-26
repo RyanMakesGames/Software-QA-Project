@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\webapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C8D2E7BC-46B0-4CB4-99BE-ED8D870A45F1}|CalculatorEngine\\CalculatorEngine.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\calculatorengine\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D2E7BC-46B0-4CB4-99BE-ED8D870A45F1}|CalculatorEngine\\CalculatorEngine.csproj|solutionrelative:calculatorengine\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8D2E7BC-46B0-4CB4-99BE-ED8D870A45F1}|CalculatorEngine\\CalculatorEngine.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\calculatorengine\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D2E7BC-46B0-4CB4-99BE-ED8D870A45F1}|CalculatorEngine\\CalculatorEngine.csproj|solutionrelative:calculatorengine\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,13 +46,12 @@
               "RelativeToolTip": "WebApp\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-26T19:06:34.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T19:06:34.291Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WebApp",
+              "Title": "WebApp.csproj",
               "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\WebApp.csproj",
               "RelativeDocumentMoniker": "WebApp\\WebApp.csproj",
               "ToolTip": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\WebApp.csproj",
@@ -70,14 +69,14 @@
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAYwHYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-26T17:06:45.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\app.css",
@@ -85,12 +84,11 @@
               "RelativeToolTip": "WebApp\\wwwroot\\app.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-04-26T19:07:11.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T19:07:11.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -98,18 +96,17 @@
               "RelativeToolTip": "WebApp\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:03:17.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T17:03:17.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\Calculator.cs",
               "RelativeDocumentMoniker": "CalculatorEngine\\Calculator.cs",
               "ToolTip": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\Calculator.cs",
               "RelativeToolTip": "CalculatorEngine\\Calculator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAeAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T17:43:46.117Z",
               "EditorCaption": ""
