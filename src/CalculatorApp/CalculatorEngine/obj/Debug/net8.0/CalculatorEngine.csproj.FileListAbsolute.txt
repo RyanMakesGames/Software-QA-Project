@@ -1,0 +1,12 @@
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.deps.json
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.dll
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.pdb
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.AssemblyInfoInputs.cache
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.AssemblyInfo.cs
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.csproj.CoreCompileInputs.cache
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.sourcelink.json
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.dll
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\refint\CalculatorEngine.dll
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.pdb
+C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\CalculatorEngine\obj\Debug\net8.0\ref\CalculatorEngine.dll

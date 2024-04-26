@@ -1,0 +1,262 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using CalculatorEngine;
+
+<PageTitle>Home</PageTitle>
+
+<style>
+    #column {
+        float: left;
+        width: 20%;
+    }
+
+    #row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #math_input {
+        text-align:right;
+        width: 150px;
+        position: relative;
+    }
+
+    #math_button {
+        width: 10%;
+        padding-bottom: 2%;
+        position: relative;
+    }
+
+    #button_head_box {
+        background: gray;
+        width: 160px;
+        height: 40px;
+    }
+
+    #result {
+        text-align: center;
+        background: @resultColor;
+        width: 250px;
+        height: 80px;
+    }
+</style>
+
+<h1>Calculator</h1>
+
+<button class="btn btn-primary" @onclick="Clear">Clear</button>
+
+<div id="result">
+    <h3 role="status">@result</h3>
+</div>
+
+<div id="row">
+    <div id="column">
+        <h3>Input A</h3>
+        <InputNumber id="math_input" type="text" @bind-Value="a"></InputNumber>
+
+        <div id="button_head_box">
+            <h3>⠀A and B</h3>
+        </div>
+        
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Add">A + B</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Subtract">A - B</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Multiply">A * B</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Divide">A / B</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Equals">A == B</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Pow">A ^ B</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Log">A log B</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Root">A root B</button>
+        </div>
+    </div>
+
+    <div id="column">
+        <h3>Input B</h3>
+        <InputNumber id="math_input" type="text" @bind-Value="b"></InputNumber>
+
+        <div id="button_head_box">
+            <h3>⠀A only</h3>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Factorial">A!</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Sin">sin A</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Cos">cos A</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="Tan">tan A</button>
+        </div>
+
+        <div id="math_button">
+            <button class="btn btn-primary" @onclick="OneOver">1 / A</button>
+        </div>
+
+    </div>
+</div>
+
+
+@code {
+    const string RESULT_COLOR_NORMAL = "beige";
+    const string RESULT_COLOR_ERROR = "red";
+    private string result = "Enter Values and Select Operation";
+    private string resultColor = RESULT_COLOR_NORMAL;
+
+    private double a = 0, b = 0;
+
+    private void Clear(){
+        a = 0;
+        b = 0;
+        result = "Enter Values and Select Operation";
+        resultColor = RESULT_COLOR_NORMAL;
+    }
+
+    //A and B
+    private void Add(){
+        double total = Calculator.Add(a, b);
+        result = "" + a + " + " + b + " = " + total;
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void Subtract(){
+        double total = Calculator.Subtract(a, b);
+        result = "" + a + " - " + b + " = " + total;
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void Multiply(){
+        double total = Calculator.Multiply(a, b);
+        result = "" + a + " * " + b + " = " + total;
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void Divide(){
+        double total = Calculator.Divide(a, b);
+        if (double.IsNaN(total)){
+            result = "" + a + " / " + b + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
+        } else {
+            result = "" + a + " / " + b + " = " + total;
+            resultColor = RESULT_COLOR_NORMAL;
+        }
+        a = 0; b = 0;
+    }
+
+    private void Equals(){
+        double total = Calculator.Equals(a, b);
+        result = "" + a + " == " + b + " is " + (total == 1 ? "TRUE" : "FALSE");
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void Pow(){
+        double total = Calculator.Pow(a, b);
+        result = "" + a + " ^ " + b + " = " + total;
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void Log(){
+        double total = Calculator.Log(a, b);
+        if (double.IsNaN(total)){
+            result = "" + a + " log " + b + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
+        } else {
+            result = "" + a + " log " + b + " = " + total;
+            resultColor = RESULT_COLOR_NORMAL;
+        }
+        a = 0; b = 0;
+    }
+
+    private void Root(){
+        double total = Calculator.Root(a, b);
+        if (double.IsNaN(total)){
+            result = "" + a + " root " + b + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
+        } else {
+            result = "" + a + " root " + b + " = " + total;
+            resultColor = RESULT_COLOR_NORMAL;
+        }
+        a = 0; b = 0;
+    }
+
+
+    //A Only
+    private void Factorial(){
+        double total = Calculator.Factorial(a);
+        if (double.IsNaN(total)){
+            result = "" + a + "! = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
+        } else {
+            result = "" + a + "! = " + total;
+            resultColor = RESULT_COLOR_NORMAL;
+        }
+        a = 0; b = 0;
+    }
+    
+    private void Sin(){
+        double total = Calculator.Sin(a);
+        result = "sin " + a + " = " + total;
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void Cos(){
+        double total = Calculator.Cos(a);
+        result = "cos " + a + " = " + total;
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void Tan(){
+        double total = Calculator.Tan(a);
+        result = "tan " + a + " = " + total;
+        resultColor = RESULT_COLOR_NORMAL;
+        a = 0; b = 0;
+    }
+
+    private void OneOver(){
+        double total = Calculator.OneOver(a);
+        if (double.IsNaN(total)){
+            result = "1 / " + a + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
+        } else {
+            result = "1 / " + a + " = " + total;
+            resultColor = RESULT_COLOR_NORMAL;
+        }
+        a = 0; b = 0;
+    }
+
+}
