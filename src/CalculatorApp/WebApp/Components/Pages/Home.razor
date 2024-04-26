@@ -163,13 +163,16 @@
     }
 
     private void Divide(){
-        double total = Calculator.Divide(a, b);
-        if (double.IsNaN(total)){
-            result = "" + a + " / " + b + " = Not a Number";
-            resultColor = RESULT_COLOR_ERROR;
-        } else {
+        try
+        {
+            double total = Calculator.Divide(a, b);
             result = "" + a + " / " + b + " = " + total;
             resultColor = RESULT_COLOR_NORMAL;
+        } 
+        catch (DivideByZeroException)
+        {
+            result = "" + a + " / " + b + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
         }
         a = 0; b = 0;
     }
@@ -189,25 +192,31 @@
     }
 
     private void Log(){
-        double total = Calculator.Log(a, b);
-        if (double.IsNaN(total)){
-            result = "" + a + " log " + b + " = Not a Number";
-            resultColor = RESULT_COLOR_ERROR;
-        } else {
+        try
+        {
+            double total = Calculator.Log(a, b);
             result = "" + a + " log " + b + " = " + total;
             resultColor = RESULT_COLOR_NORMAL;
+        }
+        catch (DivideByZeroException)
+        {
+            result = "" + a + " log " + b + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
         }
         a = 0; b = 0;
     }
 
     private void Root(){
-        double total = Calculator.Root(a, b);
-        if (double.IsNaN(total)){
-            result = "" + a + " root " + b + " = Not a Number";
-            resultColor = RESULT_COLOR_ERROR;
-        } else {
+        try
+        {
+            double total = Calculator.Root(a, b);
             result = "" + a + " root " + b + " = " + total;
             resultColor = RESULT_COLOR_NORMAL;
+        }
+        catch (DivideByZeroException)
+        {
+            result = "" + a + " root " + b + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
         }
         a = 0; b = 0;
     }
@@ -215,13 +224,16 @@
 
     //A Only
     private void Factorial(){
-        double total = Calculator.Factorial(a);
-        if (double.IsNaN(total)){
-            result = "" + a + "! = Not a Number";
-            resultColor = RESULT_COLOR_ERROR;
-        } else {
+        try
+        {
+            double total = Calculator.Factorial(a);
             result = "" + a + "! = " + total;
             resultColor = RESULT_COLOR_NORMAL;
+        }
+        catch (DivideByZeroException)
+        {
+            result = "" + a + "! = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
         }
         a = 0; b = 0;
     }
@@ -248,13 +260,16 @@
     }
 
     private void OneOver(){
-        double total = Calculator.OneOver(a);
-        if (double.IsNaN(total)){
-            result = "1 / " + a + " = Not a Number";
-            resultColor = RESULT_COLOR_ERROR;
-        } else {
+        try
+        {
+            double total = Calculator.OneOver(a);
             result = "1 / " + a + " = " + total;
             resultColor = RESULT_COLOR_NORMAL;
+        }
+        catch (DivideByZeroException)
+        {
+            result = "1 / " + a + " = Not a Number";
+            resultColor = RESULT_COLOR_ERROR;
         }
         a = 0; b = 0;
     }

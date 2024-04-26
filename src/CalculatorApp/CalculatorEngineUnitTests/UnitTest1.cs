@@ -78,13 +78,9 @@ public class Tests
         // Arrange
         const double a = 12;
         const double b = 0;
-        const double expected = double.NaN;
         
-        // Act
-        var result = Calculator.Divide(a, b);
-        
-        // Assert
-        Assert.That(result, Is.EqualTo(expected).Within(.000000001));
+        // Act & Assert
+        Assert.Throws<DivideByZeroException>(() => Calculator.Divide(a, b));
     }
     
     [Test]

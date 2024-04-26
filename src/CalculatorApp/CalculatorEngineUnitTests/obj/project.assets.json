@@ -998,32 +998,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ptl40\\.nuget\\packages\\": {}
+    "C:\\Users\\rzewr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
       "projectName": "CalculatorEngineUnitTests",
-      "projectPath": "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
-      "packagesPath": "C:\\Users\\ptl40\\.nuget\\packages\\",
-      "outputPath": "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\obj\\",
+      "projectPath": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
+      "packagesPath": "C:\\Users\\rzewr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ptl40\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rzewr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj": {
-              "projectPath": "D:\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj"
+            "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj": {
+              "projectPath": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\CalculatorEngine.csproj"
             }
           }
         }
@@ -1032,6 +1034,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

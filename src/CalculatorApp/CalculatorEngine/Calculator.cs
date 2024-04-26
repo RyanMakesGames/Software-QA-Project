@@ -16,7 +16,7 @@
 		}
 
 		public static double Divide(double a, double b){
-			if(b == 0) return double.NaN;
+			if(b == 0) throw new DivideByZeroException();
 			return a / b;
 		}
 
@@ -29,12 +29,13 @@
 		}
 
 		public static double Log(double a, double b){
-			if(b <= 0) return double.NaN;
+			if(a <= 0) throw new DivideByZeroException();
+			if(b == 0) throw new DivideByZeroException();
 			return Math.Log(a, b);
 		}
 
 		public static double Root(double a, double b){
-			if(b <= 0) return double.NaN;
+			if(b <= 0) throw new DivideByZeroException();
 			return Math.Pow(a, 1.0 / b);
 		}
 
@@ -64,7 +65,7 @@
 		}
 
 		public static double OneOver(double a){
-			if(a == 0) return double.NaN;
+			if(a == 0) throw new DivideByZeroException();
 			return 1/a;
 		}
 	}

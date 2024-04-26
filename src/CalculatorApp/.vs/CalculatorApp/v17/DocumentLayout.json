@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DDF8766-10E2-473B-A0D8-CB52FB6DA07A}|CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\calculatorengineunittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DDF8766-10E2-473B-A0D8-CB52FB6DA07A}|CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj|solutionrelative:calculatorengineunittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,12 +19,16 @@
       "RelativeMoniker": "D:0:0:{C8D2E7BC-46B0-4CB4-99BE-ED8D870A45F1}|CalculatorEngine\\CalculatorEngine.csproj|solutionrelative:calculatorengine\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|c:\\users\\rzewr\\documents\\[personal]\\important\\school\\2023-2024\\software qa\\software-qa-project\\src\\calculatorapp\\webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E9EF659C-49B8-4AEC-99B6-9B33AD300D09}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 267,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CalculatorEngineUnitTests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngineUnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "CalculatorEngineUnitTests\\UnitTest1.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAswE8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:48:15.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor",
@@ -46,7 +63,8 @@
               "RelativeToolTip": "WebApp\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-26T19:06:34.291Z"
+              "WhenOpened": "2024-04-26T19:06:34.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -58,7 +76,8 @@
               "RelativeToolTip": "WebApp\\WebApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-26T17:50:04.847Z"
+              "WhenOpened": "2024-04-26T17:50:04.847Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -68,14 +87,14 @@
               "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "WebApp\\Components\\Pages\\Home.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAAAAAA",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAhwIEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-26T17:06:45.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "app.css",
               "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\app.css",
               "RelativeDocumentMoniker": "WebApp\\wwwroot\\app.css",
@@ -87,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\Program.cs",
               "RelativeDocumentMoniker": "WebApp\\Program.cs",
@@ -106,9 +125,10 @@
               "RelativeDocumentMoniker": "CalculatorEngine\\Calculator.cs",
               "ToolTip": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\CalculatorEngine\\Calculator.cs",
               "RelativeToolTip": "CalculatorEngine\\Calculator.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAwwD8AAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wB8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:43:46.117Z"
+              "WhenOpened": "2024-04-26T17:43:46.117Z",
+              "EditorCaption": ""
             }
           ]
         }
