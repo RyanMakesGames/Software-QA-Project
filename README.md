@@ -6,8 +6,6 @@ The repository contains our src folder with the solution and read me file. Withi
 ## Table of Contents
  - [Team Members](#team-members)
  - [Architecture](#architecture)
- - [Environment](#environment)
- - [Executing Unit Tests](#executing-unit-tests)
  - [Reviewing Unit Test Coverage](#reviewing-unit-test-coverage)
  - [Final Video Presentation](#final-video-presentation)
 
