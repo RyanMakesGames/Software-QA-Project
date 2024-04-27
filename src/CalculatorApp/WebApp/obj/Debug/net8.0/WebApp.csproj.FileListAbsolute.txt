@@ -32,3 +32,37 @@ C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Softw
 C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\CalculatorEngine.pdb
 C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
 C:\Users\rzewr\Documents\[Personal]\Important\School\2023-2024\Software QA\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\appsettings.Development.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\appsettings.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\WebApp.staticwebassets.runtime.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\WebApp.exe
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\WebApp.deps.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\WebApp.runtimeconfig.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\WebApp.dll
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\WebApp.pdb
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\CalculatorEngine.dll
+D:\Software-QA-Project\src\CalculatorApp\WebApp\bin\Debug\net8.0\CalculatorEngine.pdb
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.csproj.AssemblyReference.cache
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfoInputs.cache
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.AssemblyInfo.cs
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.csproj.CoreCompileInputs.cache
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\staticwebassets.build.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\staticwebassets.development.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApp.props
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApp.props
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApp.props
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\scopedcss\bundle\WebApp.styles.css
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\scopedcss\projectbundle\WebApp.bundle.scp.css
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.csproj.Up2Date
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.dll
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\refint\WebApp.dll
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.pdb
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\WebApp.genruntimeconfig.cache
+D:\Software-QA-Project\src\CalculatorApp\WebApp\obj\Debug\net8.0\ref\WebApp.dll

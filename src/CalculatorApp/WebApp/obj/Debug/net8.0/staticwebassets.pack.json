@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
+      "Id": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebApp.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\app.css",
+      "Id": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\favicon.png",
+      "Id": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

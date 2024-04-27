@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uguIKm4oF/bi0GSdeyDmedO/ElMVi6y0MiGGgEtZEis=",
+  "Hash": "AQvW7TQlWyEYvQ8seR1dlqKFay6mZI/2XLTeyrmINN0=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApp\\wwwroot",
       "Source": "WebApp",
-      "ContentRoot": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
+      "Identity": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css",
       "SourceId": "WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "WebApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css"
+      "OriginalItemSpec": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
+      "Identity": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
       "SourceId": "WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\app.css",
+      "Identity": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\app.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\favicon.png",
+      "Identity": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\favicon.png",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rzewr\\Documents\\[Personal]\\Important\\School\\2023-2024\\Software QA\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\Software-QA-Project\\src\\CalculatorApp\\WebApp\\wwwroot\\",
       "BasePath": "_content/WebApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

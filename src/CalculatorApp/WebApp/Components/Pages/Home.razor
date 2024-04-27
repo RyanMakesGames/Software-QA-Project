@@ -2,7 +2,7 @@
 @rendermode InteractiveServer
 @using CalculatorEngine;
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Calculator</PageTitle>
 
 <style>
     #column {
@@ -16,13 +16,25 @@
         clear: both;
     }
 
-    #math_input {
+    #math_inputa {
+        text-align:right;
+        width: 150px;
+        position: relative;
+    }
+
+    #math_inputb {
         text-align:right;
         width: 150px;
         position: relative;
     }
 
     #math_button {
+        width: 10%;
+        padding-bottom: 2%;
+        position: relative;
+    }
+
+    #math_button2 {
         width: 10%;
         padding-bottom: 2%;
         position: relative;
@@ -44,7 +56,7 @@
 
 <h1>Calculator</h1>
 
-<button class="btn btn-primary" @onclick="Clear">Clear</button>
+<button id="Clear" class="btn btn-primary" @onclick="Clear">Clear</button>
 
 <div id="result">
     <h3 role="status">@result</h3>
@@ -53,7 +65,7 @@
 <div id="row">
     <div id="column">
         <h3>Input A</h3>
-        <InputNumber id="math_input" type="text" @bind-Value="a"></InputNumber>
+        <InputNumber id="math_inputa" type="text" @bind-Value="a"></InputNumber>
 
         <div id="button_head_box">
             <h3>⠀A and B</h3>
@@ -72,7 +84,7 @@
             <button class="btn btn-primary" @onclick="Multiply">A * B</button>
         </div>
 
-        <div id="math_button">
+        <div id="math_button2">
             <button class="btn btn-primary" @onclick="Divide">A / B</button>
         </div>
 
@@ -95,7 +107,7 @@
 
     <div id="column">
         <h3>Input B</h3>
-        <InputNumber id="math_input" type="text" @bind-Value="b"></InputNumber>
+        <InputNumber id="math_inputb" type="text" @bind-Value="b"></InputNumber>
 
         <div id="button_head_box">
             <h3>⠀A only</h3>
